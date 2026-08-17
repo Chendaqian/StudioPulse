@@ -10,6 +10,8 @@
 
 # StudioPulse
 
+![11](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
+
 [中文文档](https://github.com/Chendaqian/StudioPulse/edit/master/README.md)
 
 StudioPulse is a Visual Studio extension that displays CPU and memory usage for the current Visual Studio process and the whole computer in the status bar.
