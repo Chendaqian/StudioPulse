@@ -8,9 +8,10 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/Chendaqian/StudioPulse/total?style=flat)](https://github.com/Chendaqian/StudioPulse/releases/latest)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Chendaqian/StudioPulse?style=flat)](https://github.com/Chendaqian/StudioPulse/commits/master)
 
-https://github.com/Chendaqian/StudioPulse/blob/master/src/StudioPulse/Resources/icon.png
 
 # StudioPulse
+
+![icon](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
 
 [English document](https://github.com/Chendaqian/StudioPulse/blob/master/README.en.md)
 
