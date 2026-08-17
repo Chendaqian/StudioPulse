@@ -12,8 +12,10 @@
 # StudioPulse
 
 <div align="center">
+  
   ![icon](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
   ![info](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/info.png)
+  
 </div>
 
 [English document](https://github.com/Chendaqian/StudioPulse/blob/master/README.en.md)
