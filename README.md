@@ -14,7 +14,6 @@
 <div align="center">
   
   ![icon](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
-  ![info](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/info.png)
   
 </div>
 
@@ -30,6 +29,9 @@ StudioPulse 是一个 Visual Studio 扩展，在状态栏显示当前 Visual Stu
 - 显示可用内存、已用内存和对应百分比
 - 支持自定义显示格式、刷新间隔和固定宽度
 - 支持根据负载显示渐变颜色
+  
+![info](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/info.png)
+  
 
 ## 支持环境
 
