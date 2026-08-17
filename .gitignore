@@ -44,6 +44,5 @@ Unicode/
 exe/
 *.pdf
 Key.snk
-*.vsix
 .vs
 packages/
