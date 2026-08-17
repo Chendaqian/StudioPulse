@@ -10,7 +10,11 @@
 
 # StudioPulse
 
-![icon](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
+<div align="center">
+  
+  ![icon](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
+  
+</div>
 
 [中文文档](https://github.com/Chendaqian/StudioPulse/edit/master/README.md)
 
@@ -22,6 +26,8 @@ StudioPulse is a Visual Studio extension that displays CPU and memory usage for 
 - Visual Studio 2022 (17.x, 64-bit)
 - Visual Studio 2026 (18.x, 64-bit)
 - .NET Framework 4.7.2 or later
+
+![info](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/info.png)
 
 ## Installation
 
