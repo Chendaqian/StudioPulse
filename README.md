@@ -1,17 +1,17 @@
 [![.NET Framework 4.7.2](https://img.shields.io/badge/.NET%20Framework-4.7.2-blue)](https://dotnet.microsoft.com/download/dotnet-framework)
 [![WPF](https://img.shields.io/badge/UI-WPF-purple)](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/)
 [![Windows](https://img.shields.io/badge/Platform-Windows-0078d4)](https://www.microsoft.com/windows)
-[![GitHub Release](https://img.shields.io/github/v/release/Chendaqian/StudioPulse?label=Release)](https://github.com/Chendaqian/StudioPulse/releases/latest)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Chendaqian/StudioPulse/publish.yml?label=Build)](https://github.com/Chendaqian/StudioPulse/actions/workflows/publish.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Chendaqian/StudioPulse?style=flat)](https://github.com/Chendaqian/StudioPulse/stargazers)
-[![GitHub Downloads](https://img.shields.io/github/downloads/Chendaqian/StudioPulse/total?style=flat)](https://github.com/Chendaqian/StudioPulse/releases/latest)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/Chendaqian/StudioPulse?style=flat)](https://github.com/Chendaqian/StudioPulse/commits/master)
-
 
 # StudioPulse
 
-![icon](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
+<div align="center">
+  
+  ![icon](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/icon.png)
+  
+</div>
 
 [English document](https://github.com/Chendaqian/StudioPulse/blob/master/README.en.md)
 
@@ -25,6 +25,9 @@ StudioPulse 是一个 Visual Studio 扩展，在状态栏显示当前 Visual Stu
 - 显示可用内存、已用内存和对应百分比
 - 支持自定义显示格式、刷新间隔和固定宽度
 - 支持根据负载显示渐变颜色
+  
+![info](https://raw.githubusercontent.com/Chendaqian/StudioPulse/refs/heads/master/src/StudioPulse/Resources/info.png)
+  
 
 ## 支持环境
 
