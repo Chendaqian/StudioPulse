@@ -1,6 +1,16 @@
-# StatusInfo
+[![.NET Framework 4.7.2](https://img.shields.io/badge/.NET%20Framework-4.7.2-blue)](https://dotnet.microsoft.com/download/dotnet-framework)
+[![WPF](https://img.shields.io/badge/UI-WPF-purple)](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/)
+[![Windows](https://img.shields.io/badge/Platform-Windows-0078d4)](https://www.microsoft.com/windows)
+[![GitHub Release](https://img.shields.io/github/v/release/Chendaqian/StudioPulse?label=Release)](https://github.com/Chendaqian/StudioPulse/releases/latest)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Chendaqian/StudioPulse/publish.yml?label=Build)](https://github.com/Chendaqian/StudioPulse/actions/workflows/publish.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Chendaqian/StudioPulse?style=flat)](https://github.com/Chendaqian/StudioPulse/stargazers)
+[![GitHub Downloads](https://img.shields.io/github/downloads/Chendaqian/StudioPulse/total?style=flat)](https://github.com/Chendaqian/StudioPulse/releases/latest)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/Chendaqian/StudioPulse?style=flat)](https://github.com/Chendaqian/StudioPulse/commits/master)
 
-StatusInfo is a Visual Studio extension that displays CPU and memory usage for the current Visual Studio process and the whole computer in the status bar.
+# StudioPulse
+
+StudioPulse is a Visual Studio extension that displays CPU and memory usage for the current Visual Studio process and the whole computer in the status bar.
 
 ## Supported versions
 
@@ -11,7 +21,7 @@ StatusInfo is a Visual Studio extension that displays CPU and memory usage for t
 
 ## Installation
 
-Close Visual Studio and double-click `bin\\Release\\StatusInfo.vsix`. Select the Visual Studio instances in VSIX Installer, then start Visual Studio again. The metrics appear on the right side of the bottom status bar.
+Close Visual Studio and double-click `publish\\StudioPulse.vsix`. Select the Visual Studio instances in VSIX Installer, then start Visual Studio again. The metrics appear on the right side of the bottom status bar.
 
 ## Configuration
 
@@ -38,11 +48,34 @@ Run the following command from a VS2022 Developer PowerShell:
 
 ```powershell
 $ErrorActionPreference = 'Stop'
-msbuild StatusInfo.sln /restore /p:Configuration=Release
+msbuild src\\StudioPulse.sln /restore /p:Configuration=Release
 ```
 
-The output is `bin\\Release\\StatusInfo.vsix`.
+You can also run the publish script:
+
+```powershell
+$ErrorActionPreference = 'Stop'
+& .\\scripts\\Publish.ps1
+```
+
+The published artifact is `publish\\StudioPulse.vsix`.
 
 ## Known limitation
 
 The status bar container is an internal Visual Studio WPF control. The extension locates it through the visual tree using `StatusBarContainer`. Future Visual Studio versions may change this internal structure and require an adapter update.
+
+## Contributors
+
+<a href="https://github.com/Chendaqian/StudioPulse/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Chendaqian/StudioPulse" />
+</a>
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=Chendaqian%2FStudioPulse&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&legend=top-left" />
+ </picture>
+</a>
