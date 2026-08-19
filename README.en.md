@@ -81,8 +81,8 @@ The status bar container is an internal Visual Studio WPF control. The extension
 
 <a href="https://www.star-history.com/?repos=Chendaqian%2FStudioPulse&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&theme=dark&legend=top-left&sealed_token=wiuDw-Ljv7973Mcs2weai8eCD8CddGrGprPruvIvTSufYy2wFDVMM9jrAGzRGi9rEkg0bAosa7zyTR--M8gotPL-8C8eBZ4tXY5iGpoAVC1RJ_qm6wLubVOQthxg5R5zeBz9y669fHeO3rqwjmm4bMUK_kCcU_3nzzkVrR6wL0uDShBaLB40qEE4PWYv" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&legend=top-left&sealed_token=wiuDw-Ljv7973Mcs2weai8eCD8CddGrGprPruvIvTSufYy2wFDVMM9jrAGzRGi9rEkg0bAosa7zyTR--M8gotPL-8C8eBZ4tXY5iGpoAVC1RJ_qm6wLubVOQthxg5R5zeBz9y669fHeO3rqwjmm4bMUK_kCcU_3nzzkVrR6wL0uDShBaLB40qEE4PWYv" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Chendaqian/StudioPulse&type=date&legend=top-left&sealed_token=wiuDw-Ljv7973Mcs2weai8eCD8CddGrGprPruvIvTSufYy2wFDVMM9jrAGzRGi9rEkg0bAosa7zyTR--M8gotPL-8C8eBZ4tXY5iGpoAVC1RJ_qm6wLubVOQthxg5R5zeBz9y669fHeO3rqwjmm4bMUK_kCcU_3nzzkVrR6wL0uDShBaLB40qEE4PWYv" />
  </picture>
 </a>
