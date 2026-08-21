@@ -4,6 +4,9 @@ $repoRoot = Split-Path -Parent $PSScriptRoot
 $solutionPath = Join-Path $repoRoot 'src\StudioPulse.sln'
 $projectDirectory = Join-Path $repoRoot 'src\StudioPulse'
 $publishDirectory = Join-Path $repoRoot 'publish'
+$releaseOutputDirectory = Join-Path $projectDirectory 'bin\Release'
+$releaseIntermediateDirectory = Join-Path $projectDirectory 'obj\Release'
+$legacyManifestPath = Join-Path $projectDirectory 'extension.vsixmanifest'
 
 $msbuildCandidates = @(
     'C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe',
@@ -22,6 +25,15 @@ if (-not (Test-Path -LiteralPath $solutionPath)) {
 }
 
 Write-Host '开始构建 StudioPulse Release...' -ForegroundColor Cyan
+foreach ($directory in @($releaseOutputDirectory, $releaseIntermediateDirectory)) {
+    if (Test-Path -LiteralPath $directory) {
+        Remove-Item -LiteralPath $directory -Recurse -Force
+    }
+}
+if (Test-Path -LiteralPath $legacyManifestPath) {
+    Remove-Item -LiteralPath $legacyManifestPath -Force
+}
+
 & $msbuildPath $solutionPath /p:Configuration=Release /m
 if ($LASTEXITCODE -ne 0) {
     throw "构建失败，MSBuild 退出码: $LASTEXITCODE"
@@ -39,6 +51,9 @@ if (-not $vsixPath) {
 New-Item -ItemType Directory -Path $publishDirectory -Force | Out-Null
 $publishedVsixPath = Join-Path $publishDirectory 'StudioPulse.vsix'
 Copy-Item -LiteralPath $vsixPath -Destination $publishedVsixPath -Force
+if (Test-Path -LiteralPath $legacyManifestPath) {
+    Remove-Item -LiteralPath $legacyManifestPath -Force
+}
 
 Write-Host ''
 Write-Host '发布完成:' -ForegroundColor Green

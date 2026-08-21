@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="878ef2eb-85ed-4660-abfb-86487540a20a" Version="1.0.0" Language="en-US" Publisher="luckeychen" />
-        <DisplayName>StudioPulse</DisplayName>
+        <Identity Id="88328b74-7a89-4a69-acf9-b6e4674abbfe" Version="1.0.0" Language="en-US" Publisher="luckeychen" />
+        <DisplayName>StudioPulse Metrics</DisplayName>
         <Description xml:space="preserve">Displays CPU and memory usage for the current Visual Studio instance in the status bar.</Description>
         <MoreInfo>https://github.com/Chendaqian/StudioPulse</MoreInfo>
         <Icon>Resources\icon.png</Icon>

@@ -15,6 +15,8 @@
 
 [English document](https://github.com/Chendaqian/StudioPulse/blob/master/README.en.md)
 
+[Marketplace 扩展地址](https://marketplace.visualstudio.com/items?itemName=LuckeyChen.StudioPulseMetrics)
+
 StudioPulse 是一个 Visual Studio 扩展，在状态栏显示当前 Visual Studio 进程和整台计算机的 CPU、内存使用情况。
 
 ## 功能
