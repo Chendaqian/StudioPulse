@@ -46,3 +46,5 @@ exe/
 Key.snk
 .vs
 packages/
+/publish/StudioPulse.vsix
+/publish/StudioPulse.vsix
